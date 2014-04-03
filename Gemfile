@@ -35,6 +35,10 @@ end
 gem 'nokogiri', '1.6.0'
 gem 'rails_admin'
 
+group :development, :test do
+  gem 'rspec-rails'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
